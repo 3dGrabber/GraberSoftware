@@ -1,0 +1,402 @@
+
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, img, ins, kbd, q, s, samp, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%
+}
+
+html
+{
+    background-color: #BBB;
+}
+
+header
+{
+    max-width: 572px;
+    margin: 0 auto;
+}
+
+    header img
+    {
+        display: block;
+        max-height: 84px;
+        max-width: 300px;
+        height: 100%;
+    }
+
+body
+{
+    display: block;
+    background-color: white;
+    box-shadow: 1px 1px 10px #555;
+    color: #666;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+    body *
+    {
+        background-color: transparent;
+    }
+
+main
+{
+    display: block;
+    max-width: 500px;
+    margin: auto;
+}
+
+nav
+{
+    position: relative;
+    display: block;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    min-height: 120px;
+}
+
+    nav svg
+    {
+        position: absolute;
+        left: -96px;
+        top: -25px;
+        margin: auto;
+        max-width: 700px;
+    }
+
+    nav a
+    {
+        color: white;
+        line-height: normal;
+        background-color: rgba(0, 0, 0, .5);
+        padding: 5px 6px;
+        font-family: Typestar Normal, Helvetica, arial, freesans, clean, sans-serif;
+        margin: 2px;
+        opacity: .9;
+        letter-spacing: 0;
+        white-space: nowrap;
+        display: inline-block;
+        max-width: 84px;
+        font-size: 13px;
+    }
+
+        nav a:hover
+        {
+            background-color: rgba(0, 0, 0, .7);
+        }
+
+footer
+{
+    font-family: Verdana, Helvetica, arial, freesans, clean, sans-serif;
+    color: #777;
+    font-size: 10px;
+    position: relative;
+    height: 0;
+    bottom: -55px;
+}
+
+/*section*/
+/*{*/
+/*    border: 1px solid red;*/
+/*}*/
+
+
+section p
+{
+    font-family: Verdana, Helvetica, arial, freesans, clean, sans-serif;
+    font-size: 13px;
+    color: #555;
+    padding-top: 7px;
+}
+
+    section p:first-of-type
+    {
+        padding-top: 0;
+    }
+
+
+.twoup
+{
+    display: inline-block;
+}
+    .twoup > .outer,
+    .twoup > p
+    {
+        text-align: left;
+        display: inline-block;
+        vertical-align: middle;
+        
+    }
+
+    .twoup > .outer
+    {
+        width: 27%;
+    }
+
+    .twoup > p
+    {
+        font-size: 12px;
+        padding-right: 3%;
+        width: 67%;
+    }
+
+
+    .twoup > .outer + p
+    {
+        padding-right: 0px;
+        padding-left: 5%;
+        width: 65%;
+    }
+
+@media (max-width: 520px)
+{
+    .twoup
+    {
+        text-align: center;
+    }
+    
+    .twoup > .outer,
+    .twoup > p
+    {
+        display: inline-block;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+
+    .twoup > .outer
+    {
+        max-width: 200px;
+        width: 90%;
+    }
+
+        .twoup > h2
+        {
+            text-align: left;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    .twoup > p
+    {
+        padding: 0;
+        font-size: 12px;
+        width: 90%;
+        text-align: left;
+    }
+
+    .twoup > .outer + p
+    {
+        padding: 0;
+        width: 80%;
+    }
+
+}
+
+.help
+{
+    font-family: Verdana, Helvetica, arial, freesans, clean, sans-serif; color: #FF6E00; padding-top: 15px; font-size: 14px; display: block;
+}
+
+
+.tel:before
+{
+    content: "+41 44 554 ";
+}
+
+.tel:after
+{
+    content: "99 97";
+}
+
+.mail:before
+{
+    content: "info-";
+}
+
+.mail:after
+{
+    content: "-grabersoftware.ch";
+}
+
+
+.corners
+{
+    stroke-width: 1;
+    stroke: #999;
+    fill: none;
+}
+
+ul
+{
+    display: inline-block;
+    height: auto;
+    margin-top: 20px;
+}
+
+li
+{
+    font-family: Typestar Normal, Helvetica, arial, freesans, clean, sans-serif;
+    display: inline-block;
+    color: white;
+    line-height: normal;
+    margin: 2px;
+    letter-spacing: 0;
+    white-space: nowrap;
+    color: white;
+    background-color: #FF6E00;
+    opacity: .6;
+    padding: 3px 5px 2px 5px;
+    font-size: 12px;
+    width: auto;
+    cursor: default;
+}
+
+        li:hover
+        {
+            opacity: .9;
+        }
+
+code
+{
+    font-family: Typestar Normal, Helvetica, arial, freesans, clean, sans-serif;
+    color: white;
+    background-color: #FF6E00;
+    opacity: .7;
+    padding: 2px 4px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+
+h1
+{
+    font-family: Typestar Normal, Helvetica, arial, freesans, clean, sans-serif;
+    margin-top: 30px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-left: 0;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: #FF6E00;
+    -webkit-font-smoothing: antialiased;
+}
+
+h2
+{
+    font-family: Typestar Normal, Helvetica, arial, freesans, clean, sans-serif;
+    margin: 40px 0 20px 0;
+    letter-spacing: 1px;
+    font-size: 17px;
+    border-top: 1px solid #888888;
+    padding-left: 1px;
+    -webkit-font-smoothing: antialiased;
+}
+
+h3
+{
+    margin-top: 30px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    letter-spacing: 1px;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+}
+
+a
+{
+    color: #4183C4;
+    text-decoration: none;
+}
+
+
+blockquote
+{
+    border-left: 4px solid #DDD;
+    padding: 0 15px;
+    color: #777;
+}
+
+.outer
+{
+    position: relative;
+    margin: 5px;
+    display: inline-block;
+}
+
+
+.inner
+{
+    line-height: 0;
+    display: block;
+}
+
+
+.outer:before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    width: 14px;
+    height: 14px;
+    border-top: 2px solid #999;
+    border-left: 2px solid #999;
+}
+
+.outer:after
+{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -6px;
+    right: -6px;
+    width: 14px;
+    height: 14px;
+    border-top: 2px solid #999;
+    border-right: 2px solid #999;
+}
+
+
+.inner:before
+{
+    content: "";
+    display: block;
+    bottom: -6px;
+    left: -6px;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    border-bottom: 2px solid #999;
+    border-left: 2px solid #999;
+}
+
+.inner:after
+{
+    display: block;
+    content: "";
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    bottom: -6px;
+    right: -6px;
+    border-bottom: 2px solid #999;
+    border-right: 2px solid #999;
+}
+
+
+
+    
