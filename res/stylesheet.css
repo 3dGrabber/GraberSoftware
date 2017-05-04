@@ -213,21 +213,25 @@ section p
 .tel:before
 {
     content: "+41 44 554 ";
+    font-size: 13px;
 }
 
 .tel:after
 {
     content: "99 97";
+    font-size: 13px;
 }
 
 .mail:before
 {
-    content: "info-";
+    content: "info";
+    font-size: 13px;
 }
 
 .mail:after
 {
-    content: "-grabersoftware.ch";
+    content: "grabersoftware.ch";
+    font-size: 13px;
 }
 
 
