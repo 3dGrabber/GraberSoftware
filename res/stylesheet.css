@@ -6,11 +6,13 @@ html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, co
     border: 0;
     width: 100%;
     -webkit-text-size-adjust: 125%;
+    text-size-adjust: 125%;
 }
 
 nav *
 {
     -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 html
@@ -87,7 +89,7 @@ body
             max-width: 700px;
         }
 
-        nav a
+        menu a
         {
             color: white;
             line-height: normal;
@@ -103,10 +105,11 @@ body
             font-size: 13px;
         }
 
-            nav a:hover
-            {
-                background-color: rgba(0, 0, 0, .7);
-            }
+        menu a:hover
+        {
+            background-color: rgba(0, 0, 0, .7);
+        }
+
 
     footer
     {
@@ -117,11 +120,6 @@ body
         height: 0;
         bottom: -55px;
     }
-
-    /*section*/
-    /*{*/
-    /*    border: 1px solid red;*/
-    /*}*/
 
 
     section p
