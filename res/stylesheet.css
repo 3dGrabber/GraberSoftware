@@ -5,6 +5,11 @@ html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, co
     padding: 0;
     border: 0;
     width: 100%;
+    -webkit-text-size-adjust: 125%;
+}
+
+nav *
+{
     -webkit-text-size-adjust: 100%;
 }
 
