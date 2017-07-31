@@ -5,6 +5,7 @@ html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, co
     padding: 0;
     border: 0;
     width: 100%;
+
     -webkit-text-size-adjust: 125%;
     text-size-adjust: 125%;
 }
@@ -15,9 +16,25 @@ nav *
     text-size-adjust: 100%;
 }
 
+    body > a
+    {
+        text-align: right;
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        font-family: Typestar Normal, Helvetica, arial, freesans, clean, sans-serif;
+        letter-spacing: 0;
+        font-size: 10px;
+        color: #777;
+        width:auto;
+    }
+
+
 html
 {
     background-color: #BBB;
+    padding-bottom: 100px;
+    height: auto;
 }
 
 header
@@ -43,17 +60,11 @@ body
     max-width: 700px;
     margin: auto;
     margin-top: 30px;
-    margin-bottom: 50px;
     padding-top: 30px;
     padding-bottom: 50px;
     transform-origin: 50% 0;
+    transform: scale(1.2);
 }
-
-@media (min-width: 1200px) { body { transform: scale(1.2); } }
-@media (min-width: 1400px) { body { transform: scale(1.4); } }
-@media (min-width: 1600px) { body { transform: scale(1.6); } }
-@media (min-width: 1800px) { body { transform: scale(1.8); } }
-
 
 
     body *
@@ -129,6 +140,7 @@ body
         color: #555;
         padding-top: 7px;
         padding-left: 2px;
+        letter-spacing: 0;
     }
 
         section p:first-of-type
@@ -170,53 +182,7 @@ body
             width: 65%;
         }
 
-    @media (max-width: 520px)
-    {
-        .twoup
-        {
-            text-align: center;
-        }
-
-            .twoup > .outer,
-            .twoup > p
-            {
-                display: inline-block;
-                margin: auto;
-                margin-top: 20px;
-                margin-bottom: 20px;
-                width: 90%;
-            }
-
-
-            .twoup > .outer
-            {
-                max-width: 200px;
-                width: 90%;
-            }
-
-            .twoup > h2
-            {
-                text-align: left;
-                width: 90%;
-                margin-left: auto;
-                margin-right: auto;
-            }
-
-            .twoup > p
-            {
-                padding: 0;
-                font-size: 12px;
-                width: 90%;
-                text-align: left;
-            }
-
-            .twoup > .outer + p
-            {
-                padding: 0;
-                width: 80%;
-            }
-    }
-
+  
     .help
     {
         font-family: Verdana, Helvetica, arial, freesans, clean, sans-serif;
