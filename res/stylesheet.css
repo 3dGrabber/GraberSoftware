@@ -1,10 +1,11 @@
 
-html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, img, ins, kbd, q, s, samp, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, img, ins, kbd, q, s, samp, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, section
 {
     margin: 0;
     padding: 0;
     border: 0;
     width: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 html
@@ -41,10 +42,10 @@ body
     transform-origin: 50% 0;
 }
 
-@media (min-width: 1000px) { body { transform: scale(1.2); } }
-@media (min-width: 1200px) { body { transform: scale(1.4); } }
-@media (min-width: 1400px) { body { transform: scale(1.6); } }
-@media (min-width: 1600px) { body { transform: scale(1.8); } }
+@media (min-width: 1200px) { body { transform: scale(1.2); } }
+@media (min-width: 1400px) { body { transform: scale(1.4); } }
+@media (min-width: 1600px) { body { transform: scale(1.6); } }
+@media (min-width: 1800px) { body { transform: scale(1.8); } }
 
 
 
@@ -124,6 +125,7 @@ body
         font-size: 13px;
         color: #555;
         padding-top: 7px;
+        padding-left: 2px;
     }
 
         section p:first-of-type
@@ -154,7 +156,7 @@ body
         {
             font-size: 12px;
             padding-right: 3%;
-            width: 67%;
+            width: 66%;
         }
 
 
@@ -226,6 +228,7 @@ body
     {
         content: "+41 44 554 ";
         font-size: 13px;
+        position: relative;
     }
 
     .tel:after
