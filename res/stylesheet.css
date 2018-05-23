@@ -194,14 +194,14 @@ body
 
     .tel:before
     {
-        content: "+41 44 554 ";
+        content: "+41 76 347 ";
         font-size: 13px;
         position: relative;
     }
 
     .tel:after
     {
-        content: "99 97";
+        content: "76 96";
         font-size: 13px;
     }
 
